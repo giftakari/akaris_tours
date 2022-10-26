@@ -8,12 +8,8 @@
     "esModuleInterop": true,
     "lib": ["es6"],
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "**.ts"
-, "app/server.ts", "app/server.ts"  ],
-  "exclude": [
-    "./frontend"
-  ]
+  "include": ["**.ts", "app/server.ts", "app/server.ts"],
+  "exclude": ["./frontend"]
 }
