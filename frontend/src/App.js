@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="bg-gray-300">
+      <Hero />
     </div>
   );
 }
