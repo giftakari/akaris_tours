@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
+    <div className="container mx-auto">
+      <Hero />
     </div>
   );
 }
