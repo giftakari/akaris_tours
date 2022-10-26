@@ -3,8 +3,10 @@ import Navbar from "./Navbar";
 export default function Hero() {
   return (
     <div>
-      <Navbar />
-      <h1>Hero</h1>
+      <div className="container mx-auto">
+        <Navbar />
+        <h1>Title</h1>
+      </div>
     </div>
   );
 }

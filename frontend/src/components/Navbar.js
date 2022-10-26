@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
     <header className="flex py-10 gap-5 items-center">
-      <div className="logo">
-        <span className="bg-red-400 p-1 rounded-full text-white">✈️</span>
+      <div>
+        <span className="bg-red-400 p-2 rounded-full text-white mr-1">✈️</span>
         <span className="text-lg">Travel</span>
       </div>
       <nav>
@@ -14,7 +14,7 @@ export default function Navbar() {
         </ul>
       </nav>
 
-      <div className="ml-auto">
+      <div className="ml-auto flex gap-3">
         <button className="bg-transparent border-2 border-red-400 text-red-400 py-1 px-6 rounded-md">
           Login
         </button>

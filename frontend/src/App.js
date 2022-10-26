@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="container mx-auto">
+    <div className="bg-gray-200">
       <Hero />
     </div>
   );
