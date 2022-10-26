@@ -6,7 +6,7 @@ export default function Navbar() {
         <span className="text-lg">Travel</span>
       </div>
       <nav>
-        <ul className="flex gap-4 opacity-70">
+        <ul className="flex gap-4 opacity-70 text-white">
           <li>Home</li>
           <li>About</li>
           <li>Adventures</li>

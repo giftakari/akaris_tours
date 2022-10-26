@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <div className="bg-gray-200">
+    <div className="bg-gray-300">
       <Hero />
     </div>
   );
