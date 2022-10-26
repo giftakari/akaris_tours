@@ -10,9 +10,9 @@ import { AiOutlineHome as HomeIcon } from "react-icons/ai";
 export default function Hero() {
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat bg-gray-400"
+      className="bg-cover bg-center bg-no-repeat "
       style={{
-        backgroundImage: `url(${heroImage})`,
+        backgroundImage: `linear-gradient(hsl(0, 0%, 0%, 0.3),hsl(0, 0%, 0%, 0.1)), url(${heroImage}) `,
       }}
     >
       <div className="container mx-auto flex flex-col gap-10 py-10">
